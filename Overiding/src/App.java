@@ -74,25 +74,47 @@ class Squid extends Creature {
     }
 }
 
-
-//MainApp
 public class App {
+    public static <T> void printDetails(T t) {
+        System.out.println("Creature Details:");
+        System.out.println("Type: " + t.getClass().getSimpleName());
+        //System.out.println("Sound: " + t.makeSound());
+        System.out.println("------------------------");
+    }
+
     public static void main(String[] args) {
-        HumanBeing john = new HumanBeing();
-        john.makeSound();
-        john.move();
-        john.eat();
+        HumanBeing human = new HumanBeing();
+        Snake snake = new Snake();
+        // Tiger tiger = new Tiger();
 
 
-        Snake cobra = new Snake();
-        cobra.makeSound();
-        cobra.move();
-        cobra.eat();
-
-
-        Squid giantSquid = new Squid();
-        giantSquid.makeSound();
-        giantSquid.move();
-        giantSquid.eat();
+        printDetails(human);
+        printDetails(snake);
+        // printDetails(tiger);
     }
 }
+
+
+//?--------------------------------------------------------------------------------------------------------------
+//MainApp
+// public class App {
+//     public static void main(String[] args) {
+//         HumanBeing john = new HumanBeing();
+//         john.makeSound();
+//         john.move();
+//         john.eat();
+
+
+//         Snake cobra = new Snake();
+//         cobra.makeSound();
+//         cobra.move();
+//         cobra.eat();
+
+
+//         Squid giantSquid = new Squid();
+//         giantSquid.makeSound();
+//         giantSquid.move();
+//         giantSquid.eat();
+//     }
+// }
+
