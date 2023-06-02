@@ -1,7 +1,7 @@
 /*
 
-AFIQ FAHMI BIN ROSLAN 
-A21EC0153
+*AFIQ FAHMI BIN ROSLAN 
+*A21EC0153
 
 Row 01
 A
@@ -16,20 +16,20 @@ public class App {
     public static void main(String[] args) throws Exception {
         // char[][] table = new char[3][];
 
-        // table[1] = new char[4];
-        // table[0][0] = 'A';
-        // table[0][1] = 'B';
-        // table[0][2] = 'C';
-        // table[0][3] = 'D';
+        //*table[1] = new char[4];
+        //* table[0][0] = 'A';
+        //* table[0][1] = 'B';
+        //* table[0][2] = 'C';
+        //* table[0][3] = 'D';
 
-        // table[1] = new char[2];
-        // table[1][0] = 'M';
-        // table[1][1] = 'M';
+        //* table[1] = new char[2];
+        //* table[1][0] = 'M';
+        //* table[1][1] = 'M';
 
-        // table[1] = new char[3];
-        // table[2][0] = 'Z';
-        // table[2][1] = 'Y';
-        // table[2][2] = 'X';
+        //* table[1] = new char[3];
+        //* table[2][0] = 'Z';
+        //* table[2][1] = 'Y';
+        //* table[2][2] = 'X';
 
         // for (int row = 0; row < table.length; row++) {
         //     System.out.println("Row " + row);
