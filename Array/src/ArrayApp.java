@@ -56,7 +56,7 @@ public class ArrayApp {
         System.out.println("The index of the largest position in the array is: " + largestIndex);
         System.out.println("The index of the lowest position in the array is: " + lowestIndex);
 
-        // Finding Largest Element Number
+        //* Finding Largest Element Number
 
         for (int i = 1; i < aNum.length; i++) {
             if (aNum[i] < aNum[largestIndex]) {
@@ -71,18 +71,23 @@ public class ArrayApp {
         // temp = s.nextFloat();
         // }
 
-        // Call method to display all element in aNum
+        //* Call method to display all element in aNum
+
         diplayAll(aNum);
+        System.out.println(" ");
         swapvalue(aNum);
+        System.out.println(" ");
         System.out.println("After Swap :");
         diplayAll(aNum);
+        System.out.println(" ");
         displayAll(aList);
+        System.out.println(" ");
 
-        // implement method sum to the value of Num
+        //* implement method sum to the value of Num
         float result = sumMethod(aNum);
         System.out.println("Sum is:" + sum);
         
-        // float highest = largestMethod(aNum);
+         float highest = largestMethod(aNum);
         // System.out.println("Largest is:" + highest);
 
     }
@@ -107,16 +112,16 @@ public class ArrayApp {
         return sum;
     }
 
-    // public static float largestMethod(float[] x) {
-    // float highest = 0f;
-    // for (int i = 1; i < x.length; i++) {
-    // if (x[i] < x[highest]) {
-    // highest = x[i];
-    // }
+    public static float largestMethod(float[] x) {
+    float highest = 0f;
+    for (int i = 1; i < x.length; i++) {
+    if (x[i] < x[(int) highest]) {
+    highest = x[i];
+    }
 
-    // }
-    // return highest;
-    // }
+    }
+    return highest;
+    }
 
     private static void swapvalue(float[] x) {
         float temp = x[0];
