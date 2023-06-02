@@ -10,6 +10,13 @@ public class Person {
     public Person() {
     }
 
+    public Person(String name, int yob, float weight, float height) {
+        this.name = name;
+        this.yob = yob;
+        this.weight = weight;
+        this.height = height;
+    }
+
     public Person(String n, int a, float w, float h, Address addr) {
         this.name = n;
         this.yob = a;

@@ -68,9 +68,10 @@ public class Person {
 
     // @Override
     // public String toString() {
-    //     return "Person info : \nname = " + this.name + " yob : " + this.yob + " \nweight : " + this.weight
-    //             + " height : " + this.height + " \nbmi : " + this.bmi + " \nHouse Number : "
-    //             + this.addr.getHouseNumber()
-    //             + " \nStreet Address : " + this.addr.getStreetAddress() + "";
+    // return "Person info : \nname = " + this.name + " yob : " + this.yob + "
+    // \nweight : " + this.weight
+    // + " height : " + this.height + " \nbmi : " + this.bmi + " \nHouse Number : "
+    // + this.addr.getHouseNumber()
+    // + " \nStreet Address : " + this.addr.getStreetAddress() + "";
     // }
 }
